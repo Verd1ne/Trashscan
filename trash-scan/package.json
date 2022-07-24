@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "axios": "^0.27.2",
     "bulma": "^0.9.4",
+    "bulma-graphs": "^0.2.1",
     "bulma-timeline": "^3.0.5",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",

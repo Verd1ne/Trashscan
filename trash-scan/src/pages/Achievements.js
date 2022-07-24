@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import DailyTask from "../components/Dailytask"
 import Logo from "../images/trashscanIcon.svg";
 import Card2 from "../images/displaycard1.png";
+import Redeem from "../components/Redeem"
 
 function Achievements() {
   return (
@@ -23,6 +24,7 @@ function Achievements() {
           </header>
         </div>
         <DailyTask/>
+        <Redeem />
       </div>
       
     </div>

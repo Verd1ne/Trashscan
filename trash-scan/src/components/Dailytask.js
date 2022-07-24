@@ -26,7 +26,9 @@ export default function Dailytask() {
       
       <div className='container mx-[20px]'>
         <div className='opacity-75 text-center text-sm mb-2'>1000 Points will be <br/> converted to IDR 5000</div>
-        <div className='rounded-full bg-black mx-[40px] px-[10px] py-[8px] text-sm border-[3px] border-black ease-in duration-300 hover:bg-white tracking-widest text-white hover:text-black hover:scale-[1.1] text-center'>REDEEM POINTS</div>
+        <div className='rounded-full bg-black mx-[40px] px-[10px] py-[8px] text-sm border-[3px] border-black ease-in duration-300 hover:bg-white tracking-widest text-white hover:text-black hover:scale-[1.1] text-center'>
+           REDEEM POINTS 
+        </div>
       </div>
       
     </div>
