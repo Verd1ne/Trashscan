@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout';
 import ProfileCard from "../components/ProfileCard"
 import Person from '../images/yellowPerson.svg'
-import Logo from "../images/trashscan-icon.png";
+import Logo from "../images/trashscanIcon.svg";
 
 
 function Profile() {
@@ -25,7 +25,7 @@ function Profile() {
         </div>
         <ProfileCard
           profilepicture={              
-          <img src={Person}/>
+          <img src={Person} className="mx-auto"/>
           }
           name={
             <p>Adrian Joseph Santoso</p>
