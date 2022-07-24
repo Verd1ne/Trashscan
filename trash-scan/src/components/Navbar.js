@@ -4,6 +4,7 @@ import navbarGraph from '../images/navbarGraph.svg'
 import navbarPerson from '../images/navbarPerson.svg'
 import navbarScan from '../images/navbarScan.svg'
 import navbarWallet from '../images/navbarWallet.svg'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -62,7 +63,7 @@ export default function Navbar() {
             height={28}
           />
         </a>
-        <a href='/' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
+        <Link to='login' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
           <img
             src={navbarPerson}
             style={{
@@ -74,7 +75,7 @@ export default function Navbar() {
             width={28}
             height={28}
           />
-        </a>
+        </Link>
         </div>
       </div>
     </div>
