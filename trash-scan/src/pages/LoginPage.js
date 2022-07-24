@@ -1,6 +1,6 @@
 import React from 'react'
 // import Pagebg from '../images/loginpagebg.svg'
-import Logo from "../images/trashscanIcon.svg";
+import Icon from "../images/trashscanIcon.svg";
 import { Link } from 'react-router-dom'
 
 export default function LoginPage() {

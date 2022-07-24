@@ -18,6 +18,7 @@ import Register from './pages/Regis'
 import Home from "./pages/Home";
 import Scan from "./pages/Scan"
 import Achievements from "./pages/Achievements";
+import Profile from "./pages/Profile";
 
 AOS.init({
   // Global settings:
@@ -53,6 +54,7 @@ function App() {
           <Route path="/balance" element={<Balance/>}/>
           <Route path="/scan" element={<Scan />} />
           <Route path="/achievements" element={<Achievements />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </div>

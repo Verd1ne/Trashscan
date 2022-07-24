@@ -5,7 +5,7 @@ import Cardboard from '../images/cardboard.svg'
 
 export default function Dailytask() {
   return (
-    <div className='font-semibold rounded-2xl bg-white p-10 m-8'>
+    <div className='font-semibold rounded-2xl bg-white p-4 m-4'>
       <div className='font-bold text-center w-full mb-4 text-black text-2xl'>DAILY TASK</div>
       <div className=''>
         <div className='rounded-[75px] flex flex-row w-full bg-white p-3 my-2 drop-shadow-[2px_2px_2px_rgba(0,0,0,0.4)] h-[80px]'>

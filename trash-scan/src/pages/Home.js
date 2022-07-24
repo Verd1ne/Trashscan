@@ -7,19 +7,19 @@ import Card2 from "../images/displaycard1.png";
 function Home() {
   return (
     <Layout>
-      <div className='bg-gradient-to-b from-gray-900 to-gray-500'
+      <div className=''
         style={{
           display: "",
           flexDirection: "",
           alignItems: "",
-          backgroundColor: "black",
+          backgroundColor: "",
         }}
       >
         <title>TrashScan</title>
         <div className="HomeDiv w-screen justify-center mx-auto sm:max-w-sm h-screen">
           <div>
             <header className="bg-yellow-300 rounded-3xl rounded-t-none pl-4 pt-4">
-                <img src={Logo} alt='logo' className="TrashLogo object-contain h-16 w-20 flex pb-2 ml-72" ></img>
+                <img src={Logo} alt='logo' className="TrashLogo object-contain h-16 w-20 flex pb-2 ml-72 drop-shadow-2xl" ></img>
             </header>
           </div>
           <br />

@@ -12,7 +12,7 @@ function BalanceSection() {
         display: "",
         flexDirection: "",
         alignItems: "",
-        backgroundColor: "black",
+        backgroundColor: "",
       }}
     >
       <title>TrashScan</title>
@@ -33,7 +33,7 @@ function BalanceSection() {
             <p>Adrian Joseph</p>
           }
         />
-        <h5>WHY WE SHOULD RECYCLE OUR TRASH</h5>
+        <h2 className='is-size-6'>WHY WE SHOULD RECYCLE OUR TRASH</h2>
         <div>
             <section className="LowerGradient block bg-black-500 h-96 pt-9">
               <div> 

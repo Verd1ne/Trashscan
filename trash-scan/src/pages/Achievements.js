@@ -7,7 +7,7 @@ import Card2 from "../images/displaycard1.png";
 function Achievements() {
   return (
     <Layout>
-    <div className='bg-gradient-to-b from-gray-900 to-gray-500'
+    <div className=""
       style={{
         display: "",
         flexDirection: "",
