@@ -25,7 +25,7 @@ class Test extends Component {
 function Scan() {
     return (  
         <Layout>
-          <div className='ScanDiv mx-auto bg-gradient-to-b from-gray-900 to-gray-500'>
+          <div className='ScanDiv mx-auto'>
           <div>
             <header className="bg-yellow-300 rounded-3xl rounded-t-none pt-4 pl-4 sm:max-w-sm mx-auto">
                 <img src={Logo} alt='logo' className="object-contain h-16 w-20 flex ml-72 pb-2" ></img>
@@ -40,7 +40,7 @@ function Scan() {
              <p className="scantext1 text-white text-2xl font-bold">
                 Scan and Receive
              </p>
-             <p className='scantext2 text-yellow-300 text-lg font-bold pt-2'>
+             <p className='scantext2 text-yellow-300 text-lg font-bold pt-2 px-6'>
                 Make sure the entire QR Code is inside the yellow box to start scanning
              </p>
             </footer>
