@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className='w-screen flex justify-center'>
       <div className=' bottom-8 w-[296px] fixed bg-[#FFD700] rounded-[30px] h-[38px] drop-shadow-2xl'>
         <div className='grid grid-cols-5'>
-        <a href='/' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
+        <a href='/data' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
           <img
             src={navbarGraph}
             style={{

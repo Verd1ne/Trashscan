@@ -49,7 +49,7 @@ body {
  };
 }
 .red {
-  color: red;
+  color: rgb(205, 18, 18);
 }
 .GreyCard{
  width: 305px;
