@@ -12,6 +12,7 @@
     "bulma": "^0.9.4",
     "bulma-graphs": "^0.2.1",
     "bulma-timeline": "^3.0.5",
+    "chart.js": "^3.8.1",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-barcode-reader": "^0.0.2",

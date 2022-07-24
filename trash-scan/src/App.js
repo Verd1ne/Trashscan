@@ -1,5 +1,4 @@
 import React, { useEffect,useState } from "react";
-import ReactDOM from "react-dom/client";
 import {
   BrowserRouter,
   Routes,
@@ -9,13 +8,9 @@ import {
 // import Card2 from "./images/displaycard1.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Redeem from './components/Redeem'
 import LoginPage from "./pages/LoginPage";
 import Balance from "./pages/Balance";
-import Dailytask from "./components/Dailytask"
-import Layout from "./components/Layout"
 import Register from './pages/Regis'
-import Home from "./pages/Home";
 import Scan from "./pages/Scan"
 import Achievements from "./pages/Achievements";
 import Profile from "./pages/Profile";
@@ -51,8 +46,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/data" element={<Data />} />
+          <Route path="/" element={<Data />} />
           <Route path="/balance" element={<Balance/>}/>
           <Route path="/scan" element={<Scan />} />
           <Route path="/achievements" element={<Achievements />} />
