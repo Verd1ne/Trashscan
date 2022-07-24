@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout';
-import Logo from "../images/trashscan-icon.png";
+import Logo from "../images/trashscanIcon.svg";
 import Card from "../images/card-template.png";
 import Card2 from "../images/displaycard1.png";
 

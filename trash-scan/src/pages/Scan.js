@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '../components/Layout';
-import Logo from "../images/trashscan-icon.png";
+import Logo from "../images/trashscanIcon.svg";
 import Scanner from "../components/Scanner"
  
 class Test extends Component {

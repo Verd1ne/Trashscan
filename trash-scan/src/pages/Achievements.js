@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import DailyTask from "../components/Dailytask"
-import Logo from "../images/trashscan-icon.png";
+import Logo from "../images/trashscanIcon.svg";
 import Card2 from "../images/displaycard1.png";
 
 function Achievements() {
