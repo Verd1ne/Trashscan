@@ -23,7 +23,7 @@ export default function Navbar() {
             height={28}
           />
         </a>
-        <a href='/' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
+        <a href='/balance' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
           <img
             src={navbarWallet}
             style={{
@@ -49,7 +49,7 @@ export default function Navbar() {
             height={49}
           />
         </a>
-        <a href='/' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
+        <a href='/achievements' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
           <img
             src={navbarChecklist}
             style={{

@@ -31,7 +31,6 @@ function Regis(){
                         <label className="pl-5 font-bold" for="pass_word2">Confirm Password</label><br />
                         <input className="ml-5 px-5  border-yellow-300 mt-1 p-1 rounded-3xl focus:outline-none" type="password" name="password2" id="pass_word2" required/>
                     </div>
-    
                     </form>
                 </div> 
               </div>

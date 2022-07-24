@@ -5,20 +5,19 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import HeroSection from './pages/HeroSection';
-import BalanceSection from './pages/BalanceSection'
 // import Card from "../src/components/Card";
 // import Card2 from "./images/displaycard1.png";
-import "./styles/global.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Redeem from './components/Redeem'
 import LoginPage from "./pages/LoginPage";
+import Balance from "./pages/Balance";
 import Dailytask from "./components/Dailytask"
 import Layout from "./components/Layout"
 import Register from './pages/Regis'
 import Home from "./pages/Home";
 import Scan from "./pages/Scan"
+import Achievements from "./pages/Achievements";
 
 AOS.init({
   // Global settings:
@@ -51,7 +50,9 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Home />} />
+          <Route path="balance" element={<Balance/>}/>
           <Route path="/scan" element={<Scan />} />
+          <Route path="/achievements" element={<Achievements />} />
         </Routes>
       </BrowserRouter>
     </div>
