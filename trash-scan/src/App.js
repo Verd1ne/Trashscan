@@ -18,6 +18,7 @@ import Dailytask from "./components/Dailytask"
 import Layout from "./components/Layout"
 import Register from './pages/Regis'
 import Home from "./pages/Home";
+import Scan from "./pages/Scan"
 
 AOS.init({
   // Global settings:
@@ -50,6 +51,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Home />} />
+          <Route path="/scan" element={<Scan />} />
         </Routes>
       </BrowserRouter>
     </div>
