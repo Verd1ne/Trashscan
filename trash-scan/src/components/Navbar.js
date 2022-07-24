@@ -63,7 +63,7 @@ export default function Navbar() {
             height={28}
           />
         </a>
-        <Link to='login' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
+        <Link to='/login' className='mx-auto hover:scale-[1.2] ease-in duration-200'>
           <img
             src={navbarPerson}
             style={{

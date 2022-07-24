@@ -16,7 +16,7 @@ function BalanceSection() {
       }}
     >
       <title>TrashScan</title>
-      <div className="HomeDiv w-screen justify-center mx-auto sm:max-w-sm has-text-centered has-text-white">
+      <div className="HomeDiv w-screen justify-center mx-auto sm:max-w-sm has-text-centered has-text-white h-screen">
         <div>
           <header className="bg-yellow-300 rounded-3xl rounded-t-none pl-4 pt-4">
               <img src={Logo} alt='logo' className="TrashLogo object-contain h-16 w-20 flex pb-2 ml-72" ></img>

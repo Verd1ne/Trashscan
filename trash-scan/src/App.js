@@ -50,7 +50,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Home />} />
-          <Route path="balance" element={<Balance/>}/>
+          <Route path="/balance" element={<Balance/>}/>
           <Route path="/scan" element={<Scan />} />
           <Route path="/achievements" element={<Achievements />} />
         </Routes>
